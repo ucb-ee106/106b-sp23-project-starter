@@ -182,9 +182,6 @@ class LinearTrajectory(Trajectory):
         twist. Note that this needs to be a rigid-body velocity, i.e. a member 
         of se(3) expressed as a 6D vector.
 
-        The function get_g_matrix from utils may be useful to perform some frame
-        transformations.
-
         Parameters
         ----------
         time : float
@@ -236,9 +233,6 @@ class CircularTrajectory(Trajectory):
         Returns the end effector's desired body-frame velocity at time t as a 6D
         twist. Note that this needs to be a rigid-body velocity, i.e. a member 
         of se(3) expressed as a 6D vector.
-
-        The function get_g_matrix from utils may be useful to perform some frame
-        transformations.
 
         Parameters
         ----------
@@ -292,9 +286,6 @@ class PolygonalTrajectory(Trajectory):
         Returns the end effector's desired body-frame velocity at time t as a 6D
         twist. Note that this needs to be a rigid-body velocity, i.e. a member 
         of se(3) expressed as a 6D vector.
-
-        The function get_g_matrix from utils may be useful to perform some frame
-        transformations.
 
         Parameters
         ----------
