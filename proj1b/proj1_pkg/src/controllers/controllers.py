@@ -460,9 +460,6 @@ class WorkspaceVelocityController(Controller):
         configuration and self._limb.set_joint_velocities() to set the joint velocity to something.  
         Remember that we want to track a trajectory in SE(3), and implement the controller described in the
         project document PDF.
-        You may find the functions body_jacobian, spatial_jacobian, body_jacobian_pinv, and
-        spatial_jacobian_pinv from utils useful. These functions modify the jacobian returned by KDL
-        into the required spatial or body jacobian.
         Parameters
         ----------
         target_position: (7,) ndarray of desired SE(3) position (px, py, pz, qx, qy, qz, qw) (position + quaternion).
