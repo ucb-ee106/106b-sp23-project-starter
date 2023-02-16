@@ -9,8 +9,7 @@ Tarun Amarnath - Lab Development Staff - tarunamarnath@berkeley.edu
 Contents: \
 Project 0 - Review of Robot Operating System (ROS) - [LabDoc](https://ucb-ee106.github.io/106b-sp23site/assets/proj/proj0.pdf) \
 Project 1A - Trajectory Generation - [LabDoc](https://ucb-ee106.github.io/106b-sp23site/assets/proj/proj1a.pdf) \
-Project 1B - Trajectory Tracking with Sawyer - [LabDoc](https://ucb-ee106.github.io/106b-sp23site/assets/proj/proj1b.pdf) \
-
+Project 1B - Trajectory Tracking with Sawyer - [LabDoc](https://ucb-ee106.github.io/106b-sp23site/assets/proj/proj1b.pdf)
 
 Notes:
 1. Since there is currently no simple way to clone subdirectories, please pull this entire repository and drag out the contents that you need.
